@@ -1,0 +1,10 @@
+const names = ["Varun", "ALok", "Anlit", "Satyam"];
+const ol = document.createElement("ol");
+
+names.forEach(name => {
+  const li = document.createElement("li");
+  li.textContent = name;
+  ol.appendChild(li);
+});
+
+document.body.appendChild(ol);
